@@ -11,13 +11,7 @@ public class AccountTestDrive {
         account.withdraw();
         account.show();
 
-        Employee employee = new Employee("Nguyen van A");
-        employee = new Employee("Nguyen van B");
-        employee.show();
-
-        Customer customer = new Customer("Nguyen Van C");
-        customer = new Customer("Nguyen Van D");
-        customer.show();
+        
     }
     
 }

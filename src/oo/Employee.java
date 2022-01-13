@@ -3,15 +3,25 @@ package oo;
 import java.util.Scanner;
 
 public class Employee {
-    Scanner input = new Scanner(System.in);
-    String emName;
+    String enName;
+    double salary;
 
-    Employee(String name){
-        emName = name;
+    Scanner input = new Scanner(System.in);
+
+    void  getEnName(){
+        System.out.print("Nhap ten nhan vien: ");
+        enName = input.nextLine();
     }
 
-    void show(){
-        System.out.println("Thong tin nhan vien");
-        System.out.println("Ten nhan vien: " + emName);
+    void getSalary(){
+        System.out.print("Nhap luong nhan vien: ");
+        salary = input.nextDouble();
+        
+    }
+    String getEmInfor(){
+        System.out.println("Thong tin nhan vien: ");
+        System.out.println("Ten nhan vien la: "+enName);
+        System.out.println("Luong nhan vien la: "+salary + "dong");
+        return enName+salary;
     }
 }
