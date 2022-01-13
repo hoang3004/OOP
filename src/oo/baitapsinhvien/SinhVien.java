@@ -1,5 +1,4 @@
-package baitapsinhvien;
-
+package oo.baitapsinhvien;
 import java.util.Scanner;
 
 public class SinhVien {

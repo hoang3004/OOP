@@ -1,4 +1,4 @@
-package baitapsinhvien;
+package oo.baitapsinhvien;
 
 public class SinhVienTestDrive {
     public static void main(String[] args) {
