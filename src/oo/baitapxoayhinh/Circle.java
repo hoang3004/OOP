@@ -1,6 +1,6 @@
 package oo.baitapxoayhinh;
 
-public class Cricle {
+public class Circle {
     String color;
     double circuit;
 
