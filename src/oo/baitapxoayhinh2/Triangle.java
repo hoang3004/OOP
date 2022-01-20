@@ -1,10 +1,10 @@
 package oo.baitapxoayhinh2;
 
 public class Triangle {
-    String sound = "triangle.aif";
+    String soundFile = "triangle.aif";
 
-    public Triangle(String sound){
-        this.sound = sound;
+    public Triangle(String soundFile){
+        this.soundFile = soundFile;
     }
 
     void rotate(){
@@ -12,6 +12,6 @@ public class Triangle {
     }
 
     void playSound(){
-        System.out.println("Play sound: "+ this.sound + " music");
+        System.out.println("Play sound: "+ this.soundFile );
     }
 }

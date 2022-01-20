@@ -1,16 +1,16 @@
 package oo.baitapxoayhinh2;
 
 public class Circle {
-    String sound = "circle.aif";
+    String soundFile = "circle.aif";
 
-    public Circle(String sound){
-        this.sound = sound;
+    public Circle(String soundFile){
+        this.soundFile = soundFile;
     }
     void rotate(){
         System.out.println("Xoay 360 độ");
     }
 
     void playSound(){
-        System.out.println("Play sound: "+ this.sound + " music");
+        System.out.println("Play sound: "+ this.soundFile );
     }
 }
