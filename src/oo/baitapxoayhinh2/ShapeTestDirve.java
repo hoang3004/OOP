@@ -16,5 +16,11 @@ public class ShapeTestDirve {
         Circle circle = new Circle("tang tang tang");
         circle.rotate();
         circle.playSound();
+
+
+        System.out.println("Amoeba");
+        Amoeba amoeba = new Amoeba("tinh tinh tang", 4.3, 2.5);
+        amoeba.rotate();
+        amoeba.playSound();
     }
 }
