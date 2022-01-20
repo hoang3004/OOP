@@ -13,7 +13,7 @@ public class ShapeTestDirve {
         square.playSound();
 
         System.out.println("Hình Tròn");
-        Circle circle = new Circle("Mùa thu");
+        Circle circle = new Circle("Mùa đông");
         circle.rotate();
         circle.playSound();
     }
