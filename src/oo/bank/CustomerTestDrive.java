@@ -1,4 +1,4 @@
-package oo;
+package oo.bank;
 
 public class CustomerTestDrive {
     public static void main(String[] args) {
